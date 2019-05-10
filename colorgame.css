@@ -1,0 +1,58 @@
+body{
+    background-color: black;
+}
+button{
+    width: ;
+    text-align: center;
+    color: black;
+    border: none;
+    background: none;
+    outline: none;
+}
+.hs{
+    color: white;
+    text-align: center;
+}
+.squer{
+    width: 30%;
+    background-color: white;
+    padding-top: 30%;
+    float: left;
+    margin: 1.66%;
+}
+#container{
+    max-width: 50%;
+    margin: 0 auto;
+    
+}
+.mesage{
+    display: contents;
+    
+}
+.bg{
+    background-color: dodgerblue;
+    margin-bottom: 0;
+}
+.footer{
+    background-color: white;
+    text-align: center;
+    margin-top: 0;
+}
+#hard{
+    position: fixed;
+    left: 80%;
+}
+#easy{
+    position: fixed;
+    left: 70%;
+}
+#placeholder{
+    position: fixed;
+    left: 50%
+}
+button:hover{
+    background: black;
+    color: white;
+    transition: all 0.5s;
+    outline:none;
+}
