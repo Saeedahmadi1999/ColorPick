@@ -2,7 +2,6 @@ body{
     background-color: black;
 }
 button{
-    width: ;
     text-align: center;
     color: black;
     border: none;
@@ -19,6 +18,8 @@ button{
     padding-top: 30%;
     float: left;
     margin: 1.66%;
+    border-radius: 10%;
+    background-color: black;
 }
 #container{
     max-width: 50%;
@@ -55,4 +56,9 @@ button:hover{
     color: white;
     transition: all 0.5s;
     outline:none;
+}
+.winner {
+    visibility: hidden;
+    color: #fff;
+    font-size: 100px;
 }
